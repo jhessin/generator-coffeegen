@@ -1,27 +1,7 @@
 {
   "name": "generator-coffeegen",
-  "main": "app/index.js",
-  "description": "CoffeeScript Generator Generator for Yeoman",
-  "homepage": "https://github.com/jhessin/generator-coffeegen",
-  "bugs": "https://github.com/jhessin/generator-coffeegen/issues",
-  "author": "Yeoman team",
-  "contributors": [
-    {
-      "name": "Pascal Hartig",
-      "email": "phartig@rdrei.net",
-      "url": "http://yeoman.io"
-    },
-    {
-      "name": "Jim Hessin",
-      "email": "jhessin@gmail.com",
-      "url": "http://www.grillbrickstudios.com"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jhessin/generator-coffeegen.git"
-  },
   "version": "0.0.0",
+  "description": "CoffeeScript Generator Generator for Yeoman",
   "files": [
     "app",
     "subgenerator"
@@ -36,6 +16,22 @@
     "boilerplate",
     "coffeescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhessin/generator-coffeegen.git"
+  },
+  "contributors": [
+    {
+      "name": "Pascal Hartig",
+      "email": "phartig@rdrei.net",
+      "url": "http://yeoman.io"
+    },
+    {
+      "name": "Jim Hessin",
+      "email": "jhessin@gmail.com",
+      "url": "http://www.grillbrickstudios.com"
+    }
+  ],
   "scripts": {
     "test": "jest",
     "pretest": "eslint . --fix",
@@ -45,28 +41,28 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "chalk": "^2.3.2",
+    "chalk": "^2.1.0",
     "coffeescript": "^2.2.4",
     "deep-extend": "^0.5.0",
-    "generator-node": "^2.4.0",
-    "inquirer-npm-name": "^3.0.0",
+    "generator-node": "^2.3.0",
+    "inquirer-npm-name": "^2.0.0",
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
-    "superb": "^2.0.0",
+    "superb": "^1.3.0",
     "yeoman-generator": "^2.0.1",
-    "yosay": "^2.0.2"
+    "yosay": "^2.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "eslint": "^4.19.1",
+    "eslint": "^4.8.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-config-xo-space": "^0.18.0",
+    "eslint-config-xo-space": "^0.16.0",
     "eslint-plugin-prettier": "^2.6.0",
-    "jest": "^22.4.3",
-    "jest-cli": "^22.4.3",
-    "nsp": "^3.2.1",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "nsp": "^2.8.1",
     "prettier": "^1.10.2",
-    "yeoman-assert": "^3.1.1",
+    "yeoman-assert": "^3.1.0",
     "yeoman-test": "^1.7.0"
   },
   "eslintConfig": {
