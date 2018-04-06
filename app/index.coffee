@@ -31,7 +31,7 @@ module.exports = class extends Generator
 
   default: ->
     if path.basename(@destinationPath()) isnt @props.name
-      this.log "Your generator must be inside a folder named #{@props.name}\n\
+      @log "Your generator must be inside a folder named #{@props.name}\n\
         I'll automatically create this folder."
       mkdirp @props.name
       @destinationRoot @destinationPath(@props.name)
